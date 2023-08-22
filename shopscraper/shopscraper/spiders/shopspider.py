@@ -2,7 +2,6 @@ import scrapy
 from scrapy import Request
 from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-import time
 import json
 import urllib.parse
 from ..items import ShopscraperItem
